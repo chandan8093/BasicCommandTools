@@ -21,9 +21,7 @@
     $git config --global user.name ""   
     $git config --global user.mail ""  
       
-    $nano ~/.gitconfig 
-  ### Generate a Key
-  Generate Key : ssh-keygen -t rsa -b 2048      
+    $nano ~/.gitconfig      
   ### Help  
         
     $git help   
