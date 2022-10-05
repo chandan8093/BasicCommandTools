@@ -1,0 +1,26 @@
+{
+    "AWSTemplateFormatVersion": "2010-09-09",
+    "Description": "",
+    "Resources": {
+        "WafWebAcl": {
+            "Type": "AWS::WAFv2::WebACL",
+            "Properties": {
+                "Name": "test",
+                "Scope": "REGIONAL",
+                "DefaultAction": {
+                    "Allow": {}
+                },
+                "VisibilityConfig": {
+                    "CloudWatchMetricsEnabled": true,
+                    "MetricName": "test",
+                    "SampledRequestsEnabled": true
+                },
+                "Rules": [],
+                "Description": "testing"
+            }
+        }
+    },
+    "Parameters": {},
+    "Metadata": {},
+    "Conditions": {}
+}
