@@ -1,0 +1,6 @@
+#print("This is a special character used in python")
+print('\ahey i \bam \ta \'DevOps\' \nEngineer')
+print("\aaltercha")
+print("\a")
+print("\a")
+print("\a")

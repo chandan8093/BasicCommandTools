@@ -1,0 +1,11 @@
+import platform
+print(f'{dir(platform)}')
+#print(help(platform))
+print("--------------------------------")
+print(f"\nos : {platform.system()}\n pyTHON vERSION : {platform.python_version()}")
+print(f"\n Machine : {platform.machine()}")
+print(f"\n Release Time : {platform.release()}")
+print(f"\n Architecure of wiondows: {platform.architecture()}")
+print(f"\n  Node: {platform.node()}")
+print(f"\nInformtion os: {platform.uname()}")
+print(f"\n Platform: {platform.platform()}")
